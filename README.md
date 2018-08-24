@@ -1,7 +1,7 @@
 # TeamAbsenseCalender
 Keep track of the abence of your team
 
-Open the Bezettingsprogramma.pro file in qt and configure it to your needs.
+Open the Bezettingsprogramma.pro file in qt-creator and configure it to your needs.
 This is a basic program and you can make changes to improve it
 
 This is mainly a program for keeping track of the absense of your team 
