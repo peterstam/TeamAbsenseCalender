@@ -330,19 +330,7 @@ void MainWindow::MaakNewDatabase()//nog niet nodig
 
 void MainWindow::OpenDatabase()
 {
-/*
-    db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("fdb16.awardspace.net"); // fake ip ;)
-    db.setPort(3306);
-    db.setDatabaseName("2371422_aanwezigheid");
-    db.setUserName("2371422_aanwezigheid");
-    db.setPassword("Racefiets9");
-    if (!db.open())
-        {  QMessageBox::critical(0,QObject::tr("Database Error"),"Fout");
-         }
 
-        else qDebug()<<"SUCCESS";
-        */
     db = QSqlDatabase::addDatabase("QSQLITE","showdb");
     db.setDatabaseName(dbFile);
     db.open();
