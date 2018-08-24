@@ -17,7 +17,6 @@ LedenDialog::LedenDialog(QWidget *parent) :
     connect(ui->pbVerwijderen, SIGNAL(clicked()), this, SLOT(deleteItem()));
     connect(ui->tableView, SIGNAL(pressed (QModelIndex)), this, SLOT(showIndex(const QModelIndex )));
 
-    dbFile = "peter.sql";
 
 }
 
