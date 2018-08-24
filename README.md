@@ -15,7 +15,7 @@ Beheer, a person can add new persons or teams.
 
 This is not completely inplemented yet, if i have time i will inplement it
 
-The hard work of making a good working template was the big chalange programming the rest is just work.
+The hard work of making a good working template was the big chalange, programming the rest is just work.
 Hope this wil be a nice basic template.
 
 It makes use of QSqlDatabase and QAbstractTableModel.
